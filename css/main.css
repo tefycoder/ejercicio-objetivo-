@@ -1,0 +1,46 @@
+body
+{
+    font-family: 'Comic Sans MS'
+}
+
+}
+header{
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+.logo{  width: 50%; }
+
+.btn_menu{ background:#B1F7A6 ; border:2px solid #B1F7A6;
+    
+}
+
+.hero .objetivo{
+    margin:0 -15px; color: white; padding: 50px 0px; }
+
+.hero .frase{
+    margin: 0 auto; padding:100px; width: 70%;
+}
+
+.hero .frase h2{ font-size: 40px;}
+
+.objetivo input{ width: 60%;margin: 0 auto;text-align: center; }
+
+.objetivo label{ font-size: 18px; margin-bottom: 15px; }
+
+.alert alert-danger {background-color: #A6F7C3;
+    
+}
+
+#salida{ color: white; width: 60%; margin: 0 auto; background:  #A6F7C3; border:2px solid  #A6F7C3; }
+
+#mensajes{width: 80%; margin: 0 ;}
+
+
+@media screen and (max-width: 1000px )
+{
+	.logo{width: 80%;}
+	.hero .frase { width: 100%; padding:60px 30px;}
+	.hero .frase h2 { font-size: 30px; }
+	.btn_menu{ margin-bottom: 10px; }
+}
